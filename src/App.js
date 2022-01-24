@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react"
+import DropDown from "./components/DropDown";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    const [isOpen, setIsOpen] = useState(false) 
+    
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    }
+
+    useEffect(() => {
+        const hideMenu = () => {
+            if (window.innerWidth > 768 && isOpen) {
+                setIsOpen(false)
+            }
+        }
+        window.addEventListener('resize', hideMenu)
+        return () => {
+            window.removeEventListener('resize', hideMenu)
+        }
+    })
+
+    return (
+        <>
+            <Navbar toggle={toggle} />
+            <DropDown isOpen={isOpen} toggle={toggle}/>
+            <Routes>
+                <Route exact path="/" element={<Hero />} />
+            </Routes>
+        </>
+    )
 }
 
 export default App;
