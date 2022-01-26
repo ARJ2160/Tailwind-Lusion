@@ -25,7 +25,7 @@
     background-color: var(--gray);
 }
 
-.nav-links select{
+.nav-links .drop{
     background-color: var(--gray);
 }
 
@@ -44,7 +44,7 @@
     margin-bottom: 30px;
 }
 
-.discount-offer{
+.discount-offer, .footer{
     background-color: var(--gray)
 }
 
@@ -55,4 +55,13 @@
     .basket, .search, .compare{
         @apply border-2 border-black p-2 m-2
     }
+    .hover-text{
+        @apply absolute w-auto top-20 right-20 min-w-max scale-0 origin-right transition-all duration-500 
+    }
+    .footer-icons{
+        @apply rounded-full p-5 bg-white text-xl
+    }
+}
+.footer-input-field{
+    background-color: #fff;
 }

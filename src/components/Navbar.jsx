@@ -5,18 +5,18 @@ const Navbar = ({ toggle }) => {
         <div className="navbar h-20 flex sm:justify-around justify-between items-center bg-transparent px-5">
             <div className="navbar-links">
                 <ul className="nav-links xl:flex hidden">
-                    <select className="mr-5" name="USD" id="">
+                    <select className="mr-5 drop" name="USD" id="">
                         <option value="USD">USD</option>
                         <option value="USD">INR</option>
                         <option value="USD">EUR</option>
                     </select>
-                    <li className="mr-5">
+                    <li className="mr-8">
                         <a href="/">Home</a>
                     </li>
-                    <li className="mr-5">
+                    <li className="mr-8">
                         <a href="/">Shop</a>
                     </li>
-                    <li className="mr-5">
+                    <li className="mr-8">
                         <a href="/">Product</a>
                     </li>
                 </ul>

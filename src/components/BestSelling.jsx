@@ -10,7 +10,7 @@ const BestSelling = () => {
                 <h1 className="lg:text-6xl sm:text-4xl text-4xl mr-10">Best Selling</h1>
                 <p className="md:text-lg text-base text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
             </div>
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
                 <div className="best-selling-card group">
                     <div className="best-selling-image">
                         <a href="/">
@@ -106,11 +106,6 @@ const BestSelling = () => {
                             <p className="text-xl">$ 410.00</p>
                         </a>
                     </div>
-                </div>
-            </div>
-            <div className="navigation-buttons">
-                <div className="navigation-left bg-white hover:bg-black group">
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg> */}
                 </div>
             </div>
         </div>

@@ -3,6 +3,8 @@ import HoverCards from './HoverCards';
 import BestSelling from "./BestSelling"
 import DiscountBanner from "./DiscountBanner"
 import TrendingOutfits from "./TrendingOutfits"
+import ImageGrid from "./ImageGrid"
+import Footer from './Footer';
 
 const Hero = () => {
     return (
@@ -14,6 +16,8 @@ const Hero = () => {
             <BestSelling />
             <DiscountBanner />
             <TrendingOutfits />
+            <ImageGrid />
+            <Footer />
         </>
     )
 };
