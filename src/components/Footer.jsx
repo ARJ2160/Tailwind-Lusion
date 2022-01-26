@@ -1,7 +1,7 @@
 import React from 'react';
-import Facebook from "../assets/facebook.svg"
-import Twitter from "../assets/twitter.svg"
-import Pinterest from "../assets/pinterest.svg"
+// import Facebook from "../assets/facebook.svg"
+// import Twitter from "../assets/twitter.svg"
+// import Pinterest from "../assets/pinterest.svg"
 
 const Footer = () => {
     return (
