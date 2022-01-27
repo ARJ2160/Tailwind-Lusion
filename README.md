@@ -17,3 +17,5 @@ Steps to run the project -
     Card Number: 4242424242424242 / 4000056655665556 / 5555555555554444
     Data: Any future date
     CVV: Any 3 digit number
+
+## App id hosted on - https://tailwind-lusion.vercel.app/
