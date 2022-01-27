@@ -1,7 +1,4 @@
 import React from 'react';
-// import Facebook from "../assets/facebook.svg"
-// import Twitter from "../assets/twitter.svg"
-// import Pinterest from "../assets/pinterest.svg"
 
 const Footer = () => {
     return (
@@ -28,11 +25,6 @@ const Footer = () => {
                 <div className="company-list sm:col-span-1 col-span-2">
                     <h1 className="text-3xl mb-10">Follow Us</h1>
                     <h1 className="text-gray-500 mb-10">And get free shipping on all our Products</h1>
-                    {/* <ul className="text-gray-500 grid grid-cols-3 gap-5">
-                        <li><img className='footer-icons' src={Facebook} alt="" /></li>
-                        <li><img className='footer-icons' src={Twitter} alt="" /></li>
-                        <li><img className='footer-icons' src={Pinterest} alt="" /></li>
-                    </ul> */}
                 </div>
                 <div className="company-list col-span-3">
                     <h1 className="text-2xl mb-10 ">Sign up now & get 10% off</h1>

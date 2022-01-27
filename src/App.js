@@ -7,11 +7,16 @@ import { Route, Routes } from "react-router-dom";
 function App() {
     
     const [isOpen, setIsOpen] = useState(false) 
+    const [cartIsOpen, setCartIsOpen] = useState(false) 
     
     const toggle = () => {
         setIsOpen(!isOpen)
     }
 
+    const cartToggle = () => { 
+        setCartIsOpen(!cartIsOpen)
+    }
+    
     useEffect(() => {
         const hideMenu = () => {
             if (window.innerWidth > 768 && isOpen) {
@@ -26,7 +31,7 @@ function App() {
 
     return (
         <>
-            <Navbar toggle={toggle} />
+            <Navbar toggle={toggle} cartToggle={cartToggle} cartIsOpen={cartIsOpen} />
             <DropDown isOpen={isOpen} toggle={toggle}/>
             <Routes>
                 <Route exact path="/" element={<Hero />} />

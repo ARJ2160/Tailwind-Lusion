@@ -7,7 +7,7 @@ const DropDown = ({ isOpen, toggle }) => {
             <div
                 className={
                     isOpen ?
-                        "grid grid-rows-4 text-center items-center bg-black text-white" : "hidden"}
+                        "grid grid-rows-4 text-center items-center bg-black text-white mt-20" : "hidden"}
                 onClick={toggle}>
                 {/* <select className="bg-black items-center text-center" name="Home Layouts" id="">
                     <option value="USD">USD</option>

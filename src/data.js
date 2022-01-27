@@ -1,27 +1,31 @@
-const data = [
+const cartItems = [
     {
       id: 1,
-      title: '',
-      price: 599.99,
-      img:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368215/phone-2_ohtt5s.png',
-      amount: 1,
+      title: 'Quilted Guillet with Hood',
+      price: 179.89,
+      img: 'https://cdn.shopify.com/s/files/1/0421/6153/7180/products/Layer-133-1_900x.jpg?v=1613979352',
+      amount: 0,
     },
     {
       id: 2,
-      title: 'google pixel ',
+      title: 'Short Straight Coat',
       price: 499.99,
-      img:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583371867/phone-1_gvesln.png',
-      amount: 1,
+      img: 'https://cdn.shopify.com/s/files/1/0421/6153/7180/products/Layer-134_360x.jpg?v=1613978975',
+      amount: 0,
     },
     {
       id: 3,
-      title: 'Xiaomi Redmi Note 2',
+      title: 'Shearling Jacket',
       price: 699.99,
-      img:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368224/phone-3_h2s6fo.png',
-      amount: 1,
+      img: 'https://cdn.shopify.com/s/files/1/0421/6153/7180/products/Layer-142_360x.jpg?v=1613979206',
+      amount: 0,
+    },
+    {
+      id: 4,
+      title: 'Puffer Gillet',
+      price: 899.99,
+      img: 'https://cdn.shopify.com/s/files/1/0421/6153/7180/products/Untitled-2_360x.jpg?v=1613978783',
+      amount: 0,
     },
 ];
-export default data
+export default cartItems
