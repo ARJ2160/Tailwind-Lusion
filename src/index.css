@@ -25,7 +25,7 @@
     background-color: var(--gray);
 }
 .cart-counter{
-    @apply absolute top-[-0.85rem] right-[0.1rem] rounded-full bg-black text-white p-3 flex justify-center items-center h-6 w-6
+    @apply absolute top-[-0.85rem] right-[1.2rem] rounded-full bg-black text-white p-3 flex justify-center items-center h-6 w-6
 }
 .accessory-image-hover, .best-selling-image{
     @apply mb-5 hover:scale-110 transition-all duration-300 drop-shadow-xl rounded-lg
@@ -61,8 +61,9 @@
     background-color: #fff;
 }
 .cart_toggle{
-    @apply absolute w-1/4 h-full top-0 right-0 origin-right transition-all duration-500 bg-white
+    @apply absolute max-w-full w-1/4 min-w-fit h-screen top-0 right-0 transition-all duration-500 bg-white flex flex-col justify-between overflow-y-auto
 }
+@media (max-width: 1400px){}
 .cart-close{
     background-color: var(--gray);
 }

@@ -39,21 +39,21 @@ const Navbar = ({ toggle, cartToggle, cartIsOpen }) => {
             </div>
             <div className="navbar-icons xl:flex justify-end hidden">
                 <ul className="xl:flex justify-around hidden">
-                    <li className='mr-5'>Pages</li>
-                    <li className='mr-5'>Elements</li>
-                    <li className='mr-5'>Blog</li>
+                    <li className='mr-8'>Pages</li>
+                    <li className='mr-8'>Elements</li>
+                    <li className='mr-8'>Blog</li>
                 </ul>
                 <div className="navbar-icons-search">
-                    <img className="mr-5 cursor-pointer" src={Search} alt="" />
+                    <img className="mr-8 cursor-pointer" src={Search} alt="" />
                 </div>
                 <div className="navbar-icons-user">
-                    <img className="mr-5 cursor-pointer" src={User} alt="" />
+                    <img className="mr-8 cursor-pointer" src={User} alt="" />
                 </div>
                 <div className="navbar-icons-wishlist">
-                    <img className="mr-5 cursor-pointer" src={Wishlist} alt="" />
+                    <img className="mr-8 cursor-pointer" src={Wishlist} alt="" />
                 </div>
                 <div className="navbar-icons-cart relative block" onClick={cartToggle}>
-                    <img className="mr-5 cursor-pointer" src={CartIcon} alt="" />
+                    <img className="mr-8 cursor-pointer" src={CartIcon} alt="" />
                     <div className="cart-counter">
                         <p>{amount}</p>
                     </div>
