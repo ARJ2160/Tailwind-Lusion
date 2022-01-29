@@ -2,11 +2,11 @@ import React from 'react';
 
 const ImageGrid = () => {
     return (
-        <div className="image-grid h-fit p-20">
+        <div className="image-grid h-fit sm:p-20 p-10">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20">
                 <div className="grid grid-cols-3 row-span-2 col-span-2">
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126092902_363731078221416_3923172392216927851_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=VwSGPbnNQGAAX8MrG2g&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-hP9I8sfvmyJaIt-t45jYTCoDKjhtYcy_tLzfyxOa-nQ&oe=61F4B525" alt="" />
+                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126092902_363731078221416_3923172392216927851_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=VwSGPbnNQGAAX8MrG2g&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9j2UuGLtBFkPau9EDHW-FTY0v381NZnKhYySjttliQKg&oe=61F6AF65" alt="" />
                     </div>
                     <div>
                         <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/125805091_1244092065966946_7480077131728639836_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=eBHQvoSFpGgAX8Yjf6J&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9py0xso4v2DnakQLecma_Y7XDqoEVL6XIacZw8R4CgJQ&oe=61F5DFA2" alt="" />

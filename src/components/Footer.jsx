@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
                 <div className="company-list col-span-3">
                     <h1 className="sm:text-2xl mb-10 text-lg">Sign up now & get 10% off</h1>
-                    <h1 className="mb-5 text-gray-500">Be the first to know about out new arrivals anbd exculsive offers</h1>
+                    <h1 className="mb-5 text-gray-500">Be the first to know about out new arrivals and exculsive offers</h1>
                     <div className="footer-input grid sm:grid-cols-3 row-span-2 gap-8">
                         <input
                             type="text"

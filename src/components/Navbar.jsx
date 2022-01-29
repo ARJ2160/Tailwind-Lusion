@@ -5,6 +5,7 @@ import Wishlist from "../assets/navbar-icons/wishlist.svg"
 import CartIcon from "../assets/navbar-icons/cart.svg"
 import { useGlobalContext } from '../context';
 import Cart from './Cart';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ toggle, cartToggle, cartIsOpen }) => {
 
@@ -20,13 +21,13 @@ const Navbar = ({ toggle, cartToggle, cartIsOpen }) => {
                         <option value="USD">EUR</option>
                     </select>
                     <li className="mr-8">
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li className="mr-8">
-                        <a href="/">Shop</a>
+                        <Link to="/">Shop</Link>
                     </li>
                     <li className="mr-8">
-                        <a href="/">Product</a>
+                        <Link to="/">Product</Link>
                     </li>
                 </ul>
             </div>

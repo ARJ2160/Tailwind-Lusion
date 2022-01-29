@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 const BestSelling = () => {
 
-    const { increase } = useGlobalContext()
-
+    const { increase, cart } = useGlobalContext()
+    console.log(cart);
     return (
         <div className="best-selling p-10 h-fit">
             <div className="best-selling-header flex items-center justify-between py-10">
