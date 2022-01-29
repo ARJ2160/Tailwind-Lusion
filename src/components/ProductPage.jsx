@@ -1,11 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import data from "../data"
+// import { useParams } from 'react-router-dom';
+// import data from "../data"
 
 const ProductPage = () => {
 
-    let { id } = useParams()
-    id = parseInt(id, 10);
+    // let { id } = useParams()
+    // id = parseInt(id, 10);
     return (
         <section className="text-gray-700 body-font overflow-hidden bg-white">
             <div className="container px-5 py-24 mx-auto">
@@ -93,9 +93,3 @@ const ProductPage = () => {
 };
 
 export default ProductPage;
-{/* 
-        // <div className="product-page mt-20">
-        //     <div className="product-details">
-        //         <div className="grid grid-cols"></div>
-        //     </div>
-        // </div> */}
