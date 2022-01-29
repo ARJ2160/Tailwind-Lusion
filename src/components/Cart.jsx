@@ -52,15 +52,17 @@ const Cart = ({ cartIsOpen, cartToggle, clearCart }) => {
                                                 <div className="cart-product-name">
                                                     {title}
                                                 </div>
-                                                <div className="delete-item cursor-pointer" onClick={() => remove(id)}><img className="w-4 h-4" src={Cross} alt="" /></div>
+                                                <div className="delete-item cursor-pointer" onClick={() => remove(id)}>
+                                                    <img className="w-4 h-4" src={Cross} alt="" />
+                                                </div>
                                             </div>
                                             <div className="product-amount-price flex justify-between items-center">
                                                 <div className="product-amount flex items-center border-2 border-black">
-                                                    <div className="decrease border-r-2 border-black px-2">
-                                                        <button onClick={() => decrease(id)}> - </button>
+                                                    <div className="decrease text-2xl border-r-2 border-black px-2">
+                                                        <button className="" onClick={() => decrease(id)}> - </button>
                                                     </div>
-                                                    <div className="amount px-4">{amount}</div>
-                                                    <div className="increase border-l-2 border-black px-2">
+                                                    <div className="amount text-xl px-4">{amount}</div>
+                                                    <div className="increase text-2xl border-l-2 border-black px-2">
                                                         <button onClick={() => increase(id)}> + </button>
                                                     </div>
                                                 </div>

@@ -7,6 +7,9 @@
     font-family: Jost, "sans-serif";
     --gray: #EBEEEE
 }
+html{
+    position: relative;
+}
 .hero{
     background: url("./assets/hero-image.png") no-repeat center;
     background-color: var(--gray);
@@ -66,4 +69,7 @@
 @media (max-width: 1400px){}
 .cart-close{
     background-color: var(--gray);
+}
+.bottom-nav-counter{
+    @apply absolute top-[-0.85rem] right-[-0.8rem] rounded-full bg-black text-white p-3 flex justify-center items-center h-6 w-6
 }
