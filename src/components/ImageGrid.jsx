@@ -1,4 +1,10 @@
 import React from 'react';
+import GridImg1 from "../assets/grid-images/grid-img1.jpg"
+import GridImg2 from "../assets/grid-images/grid-img2.jpg"
+import GridImg3 from "../assets/grid-images/grid-img3.jpg"
+import GridImg4 from "../assets/grid-images/grid-img4.jpg"
+import GridImg5 from "../assets/grid-images/grid-img5.jpg"
+import GridImg6 from "../assets/grid-images/grid-img6.jpg"
 
 const ImageGrid = () => {
     return (
@@ -6,22 +12,22 @@ const ImageGrid = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20">
                 <div className="grid grid-cols-3 row-span-2 col-span-2">
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126092902_363731078221416_3923172392216927851_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=VwSGPbnNQGAAX8MrG2g&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9j2UuGLtBFkPau9EDHW-FTY0v381NZnKhYySjttliQKg&oe=61F6AF65" alt="" />
+                        <img src={GridImg1} alt="" />
                     </div>
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/125805091_1244092065966946_7480077131728639836_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=eBHQvoSFpGgAX8Yjf6J&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9py0xso4v2DnakQLecma_Y7XDqoEVL6XIacZw8R4CgJQ&oe=61F5DFA2" alt="" />
+                        <img src={GridImg2} alt="" />
                     </div>
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126106436_366020964688525_7792254897032838113_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=QHChXsTqFzEAX8bhxFQ&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9yORvX-3JcBeyqonMW_zQXKe-2ezJ9bFYraWnnUB8Rdw&oe=61F5B6EF" alt="" />
+                        <img src={GridImg3} alt="" />
                     </div>
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126398977_221851472632792_6291091317212891166_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=881UT48PxTAAX-oedUH&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_Z4cnaQyRcoOX72fTGw7STayygFOEI3LMOO-RdnUfofg&oe=61F64F02" alt="" />
+                        <img src={GridImg4} alt="" />
                     </div>
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/126197996_385197312744633_6397005439344767247_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=_xJJd9RHkDoAX8JxNe8&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9YEWxB-oTjQgzlHC5hGo_RxH_c0Foxx731E2mrNSUALw&oe=61F55549" alt="" />
+                        <img src={GridImg5} alt="" />
                     </div>
                     <div>
-                        <img src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/125474066_691332491496782_8130376826513537460_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=EFDDTpNVInUAX_Ral1m&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-P2utRAbCMFq6Qw3lqCCyT1jowPrXXKenBjgjn6OqRlA&oe=61F5A759" alt="" />
+                        <img src={GridImg6} alt="" />
                     </div>
                 </div>
                 <div className="grids-text lg:row-span-2 lg:col-span-1 sm:col-span-2 col-span-2 flex flex-col justify-center lg:text-justify text-center">

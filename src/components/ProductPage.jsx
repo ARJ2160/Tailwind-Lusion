@@ -7,11 +7,11 @@ import { useState } from 'react';
 
 const ProductPage = () => {
 
-    const { cart, increase, decrease, getTotals } = useGlobalContext();
+    const { increase, decrease, getTotals } = useGlobalContext();
     const [productAmount, setProductAmount] = useState(1)
     let { id } = useParams()
     id = parseInt(id, 10);
-    console.log(cart);
+
     return (
         <section className="text-gray-700 overflow-hidden bg-white">
             <div className="container px-5 py-24 mx-auto">
