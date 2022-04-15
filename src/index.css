@@ -4,22 +4,22 @@
 @tailwind utilities;
 
 * {
-    font-family: Jost, "sans-serif";
-    --gray: #EBEEEE
+  font-family: Jost, "sans-serif";
+  --gray: #EBEEEE
 }
 html{
-    position: relative;
+  position: relative;
 }
 .hero{
-    background: url("./assets/hero-image.png") no-repeat center;
-    background-color: var(--gray);
+  background: url("./assets/hero-image.png") no-repeat center;
+  background-color: var(--gray);
 }
 @media (max-width: 1020px){
-    .hero{
-        background: url("https://cdn.shopify.com/s/files/1/0421/6153/7180/files/slide-mobile-3.png?v=1606981070") no-repeat center;
-        background-color: var(--gray);
-        width: 100%;
-    }
+  .hero{
+      background: url("https://cdn.shopify.com/s/files/1/0421/6153/7180/files/slide-mobile-3.png?v=1606981070") no-repeat center;
+      background-color: var(--gray);
+      width: 100%;
+  }
 }
 .navbar{
     background-color: var(--gray);
