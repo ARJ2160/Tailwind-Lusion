@@ -1,9 +1,9 @@
-import GridImg1 from '../assets/grid-images/grid-img1.jpg';
-import GridImg2 from '../assets/grid-images/grid-img2.jpg';
-import GridImg3 from '../assets/grid-images/grid-img3.jpg';
-import GridImg4 from '../assets/grid-images/grid-img4.jpg';
-import GridImg5 from '../assets/grid-images/grid-img5.jpg';
-import GridImg6 from '../assets/grid-images/grid-img6.jpg';
+import GridImg1 from '../assets/grid-images/grid-img1.webp';
+import GridImg2 from '../assets/grid-images/grid-img2.webp';
+import GridImg3 from '../assets/grid-images/grid-img3.webp';
+import GridImg4 from '../assets/grid-images/grid-img4.webp';
+import GridImg5 from '../assets/grid-images/grid-img5.webp';
+import GridImg6 from '../assets/grid-images/grid-img6.webp';
 import React from 'react';
 
 const ImageGrid = () => {

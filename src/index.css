@@ -11,7 +11,7 @@ html {
   position: relative;
 }
 .hero {
-  background: url('./assets/hero-image.png') no-repeat center;
+  background: url('./assets/hero-image.webp') no-repeat center;
   background-color: var(--gray);
 }
 @media (max-width: 1020px) {
